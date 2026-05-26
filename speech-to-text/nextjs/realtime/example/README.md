@@ -8,6 +8,9 @@ Live speech-to-text transcription using ElevenLabs Scribe v2 real-time API with 
 
    ```bash
    cp .env.example .env
+   # IMPORTANT: do not commit your real API key. Create a .env.local with:
+   # ELEVENLABS_API_KEY=your_key_here
+   # If you previously exposed a key, revoke it in the ElevenLabs dashboard.
    ```
 
    Then edit `.env` and paste your [ElevenLabs API key](https://elevenlabs.io/app/settings/api-keys).
